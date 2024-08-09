@@ -10,15 +10,7 @@ Async-graphql での Dataloader 実装による N+1 問題の解決例
 cargo install sea-orm-cli
 ```
 
-2. `.env`を作成
-
-```env
-DATABASE_URL=postgres://user:pass@localhost/dbname
-↓
-DATABASE_URL=mysql://root:root@localhost:3306/mytest
-```
-
-3. migrate init を実行
+2. migrate init を実行
 
 ```
 sea-orm-cli migrate init
